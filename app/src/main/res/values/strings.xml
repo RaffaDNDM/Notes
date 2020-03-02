@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="photo_button">Photo</string>
+    <string name="sun">Sunrise</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="title">Info</string>
+    <string name="information"><b>Author: Raffaele Di Nardo Di Maio</b> \n
+    This application shows some of the photos, made by Raffaele. \n
+    It\'s organized in themes and shows the best photos on the movies.
+    If you want to see other applications, programmed by the author, you can visit:\n\n
+    https://github.com/RaffaDNDM \n
+    There you can find some programs about:\n
+    <ul>
+    <li>Machine Learning</li>
+    <li>Big Data</li>
+    <li>Operating System</li>
+    <li>Parallel Computing</li>
+    <li>CTF solutions</li>
+    <li>Application of geometry concepts</li>
+    </ul>
+    </string>
+</resources>
