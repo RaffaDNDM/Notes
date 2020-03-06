@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bardolino"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:contentDescription="@string/bardolino_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino" />
+
+            <ImageView
+                android:id="@+id/bardolino1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/bardolino1_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino1" />
+
+            <ImageView
+                android:id="@+id/bardolino2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/bardolino2_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino2" />
+
+            <ImageView
+                android:id="@+id/bardolino3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/bardolino3_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino3" />
+
+            <ImageView
+                android:id="@+id/bardolino4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/bardolino4_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino4" />
+
+            <ImageView
+                android:id="@+id/bardolino5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/bardolino5_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino5" />
+
+            <ImageView
+                android:id="@+id/bardolino6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/bardolino6_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino6" />
+
+            <ImageView
+                android:id="@+id/bardolino7"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/bardolino7_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino7" />
+
+            <ImageView
+                android:id="@+id/bardolino8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/bardolino8_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino8" />
+
+            <ImageView
+                android:id="@+id/bardolino9"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/bardolino9_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino9" />
+
+            <ImageView
+                android:id="@+id/bardolino10"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/bardolino10_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino10" />
+
+            <ImageView
+                android:id="@+id/bardolino11"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/bardolino11_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino11" />
+
+            <ImageView
+                android:id="@+id/bardolino12"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/bardolino12_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/bardolino12" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

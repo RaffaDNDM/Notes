@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/sanmartino"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:contentDescription="@string/sanmartino_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino" />
+
+            <ImageView
+                android:id="@+id/sanmartino1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino1_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino1" />
+
+            <ImageView
+                android:id="@+id/sanmartino2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/sanmartino2_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino2" />
+
+            <ImageView
+                android:id="@+id/sanmartino3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/sanmartino3_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino3" />
+
+            <ImageView
+                android:id="@+id/sanmartino4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino4_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino4" />
+
+            <ImageView
+                android:id="@+id/sanmartino5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino5_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino5" />
+
+            <ImageView
+                android:id="@+id/sanmartino6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino6_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino6" />
+
+            <ImageView
+                android:id="@+id/sanmartino7"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino7_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino7" />
+
+            <ImageView
+                android:id="@+id/sanmartino8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino8_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino8" />
+
+            <ImageView
+                android:id="@+id/sanmartino9"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino9_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino9" />
+
+            <ImageView
+                android:id="@+id/sanmartino10"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino10_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino10" />
+
+            <ImageView
+                android:id="@+id/sanmartino11"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino11_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino11" />
+
+            <ImageView
+                android:id="@+id/sanmartino12"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino12_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino12" />
+
+            <ImageView
+                android:id="@+id/sanmartino13"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/sanmartino13_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino13" />
+
+            <ImageView
+                android:id="@+id/sanmartino14"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/sanmartino14_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino14" />
+
+            <ImageView
+                android:id="@+id/sanmartino15"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino15_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino15" />
+
+            <ImageView
+                android:id="@+id/sanmartino16"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino16_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino16" />
+
+            <ImageView
+                android:id="@+id/sanmartino17"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino17_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino17" />
+
+            <ImageView
+                android:id="@+id/sanmartino18"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/sanmartino18_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino18" />
+
+            <ImageView
+                android:id="@+id/sanmartino19"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/sanmartino19_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/sanmartino19" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

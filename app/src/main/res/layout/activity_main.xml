@@ -30,7 +30,7 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="20dp"
         android:onClick="tutorial"
-        android:text="@string/tutorial"
+        android:text="@string/info"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

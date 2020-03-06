@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/padua"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/padua_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/padua" />
+
+            <ImageView
+                android:id="@+id/padua1"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/padua1_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/padua1" />
+
+            <ImageView
+                android:id="@+id/padua2"
+                android:layout_width="177dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/padua2_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/padua2" />
+
+            <ImageView
+                android:id="@+id/padua3"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/padua3_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/padua3" />
+
+            <ImageView
+                android:id="@+id/padua4"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/padua4_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/padua4" />
+
+            <ImageView
+                android:id="@+id/padua5"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/padua5_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/padua5" />
+
+            <ImageView
+                android:id="@+id/padua6"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="60dp"
+                android:contentDescription="@string/padua6_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/padua6" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,22 +1,118 @@
 <resources>
-    <string name="app_name">Notes</string>
+    <string name="app_name">PhotoDNDM</string>
     <string name="photo_button">Photo</string>
-    <string name="sun">Sunrise</string>
-    <string name="tutorial">Tutorial</string>
+    <string name="menu">Menu</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="atri">atri</string>
+    <string name="atri_date">Atri(TE)  01\-12\-2019  8:02 am</string>
+    <string name="atri1_date">Atri(TE)  01\-12\-2019  8:12 am</string>
+    <string name="atri2_date">Atri(TE)  01\-12\-2019  8:32 am</string>
+    <string name="atri3_date">Atri(TE)  01\-12\-2019  8:57 am</string>
+    <string name="atri4_date">Atri(TE)  01\-12\-2019  9:01 am</string>
+    <string name="atri5_date">Atri(TE)  01\-12\-2019  8:53 am</string>
+
+    <string name="burano">burano</string>
+    <string name="burano_date">Burano(VE)  24\-09\-2019  10:43 am</string>
+    <string name="burano1_date">Burano(VE)  24\-09\-2019  10:32 am</string>
+    <string name="burano2_date">Burano(VE)  24\-09\-2019  10:53 am</string>
+    <string name="burano3_date">Burano(VE)  24\-09\-2019  11:38 am</string>
+    <string name="burano4_date">Burano(VE)  24\-09\-2019  02:44 pm</string>
+    <string name="burano5_date">Burano(VE)  24\-09\-2019  02:49 pm</string>
+
+    <string name="bardolino">bardolino</string>
+    <string name="bardolino_date">Bardolino(VR)  29\-09\-2019  04:22 pm</string>
+    <string name="bardolino1_date">Bardolino(VR)  28\-09\-2019  12:18 pm</string>
+    <string name="bardolino2_date">Bardolino(VR)  29\-09\-2019  06:30 pm</string>
+    <string name="bardolino3_date">Bardolino(VR)  28\-09\-2019  06:56 pm</string>
+    <string name="bardolino4_date">Bardolino(VR)  29\-09\-2019  08:09 pm</string>
+    <string name="bardolino5_date">Bardolino(VR)  28\-09\-2019  10:16 pm</string>
+    <string name="bardolino6_date">Bardolino(VR)  29\-09\-2019  10:23 pm</string>
+    <string name="bardolino7_date">Bardolino(VR)  28\-09\-2019  10:25 pm</string>
+    <string name="bardolino8_date">Bardolino(VR)  29\-09\-2019  10:28 pm</string>
+    <string name="bardolino9_date">Bardolino(VR)  28\-09\-2019  10:45 pm</string>
+    <string name="bardolino10_date">Bardolino(VR)  28\-09\-2019  11:14 pm</string>
+    <string name="bardolino11_date">Bardolino(VR)  28\-09\-2019  11:12 am</string>
+    <string name="bardolino12_date">Bardolino(VR)  28\-09\-2019  11:42 am</string>
+
+    <string name="padua">padua</string>
+    <string name="padua_date">Padua(PD)  20\-10\-2019  06:56 am</string>
+    <string name="padua1_date">Padua(PD)  16\-10\-2019  07:16 am</string>
+    <string name="padua2_date">Padua(PD)  25\-10\-2019  04:56 pm</string>
+    <string name="padua3_date">Padua(PD)  01\-11\-2019  08:50 am</string>
+    <string name="padua4_date">Padua(PD)  01\-11\-2019  08:48 am</string>
+    <string name="padua5_date">Padua(PD)  04\-12\-2019  08:13 am</string>
+    <string name="padua6_date">Padua(PD)  04\-12\-2019  08:20 am</string>
+
+    <string name="sanmartino">sanmartino</string>
+    <string name="sanmartino_title">San Martino di Castrozza</string>
+    <string name="sanmartino_date">San Martino di Castrozza(TN)  27\-02\-2020  06:40 pm</string>
+    <string name="sanmartino1_date">San Martino di Castrozza(TN)  26\-02\-2020  04:07 pm</string>
+    <string name="sanmartino2_date">San Martino di Castrozza(TN)  27\-02\-2020  12:45 pm</string>
+    <string name="sanmartino3_date">San Martino di Castrozza(TN)  28\-02\-2020  11:42 am</string>
+    <string name="sanmartino4_date">San Martino di Castrozza(TN)  28\-02\-2020  12:23 pm</string>
+    <string name="sanmartino5_date">San Martino di Castrozza(TN)  28\-02\-2020  12:31 pm</string>
+    <string name="sanmartino6_date">San Martino di Castrozza(TN)  28\-02\-2020  12:34 pm</string>
+    <string name="sanmartino7_date">San Martino di Castrozza(TN)  28\-02\-2020  12:36 pm</string>
+    <string name="sanmartino8_date">San Martino di Castrozza(TN)  28\-02\-2020  12:44 pm</string>
+    <string name="sanmartino9_date">San Martino di Castrozza(TN)  28\-02\-2020  01:09 pm</string>
+    <string name="sanmartino10_date">San Martino di Castrozza(TN)  28\-02\-2020  01:25 pm</string>
+    <string name="sanmartino11_date">San Martino di Castrozza(TN)  28\-02\-2020  01:33 pm</string>
+    <string name="sanmartino12_date">San Martino di Castrozza(TN)  28\-02\-2020  06:53 pm</string>
+    <string name="sanmartino13_date">San Martino di Castrozza(TN)  29\-02\-2020  01:57 pm</string>
+    <string name="sanmartino14_date">San Martino di Castrozza(TN)  29\-02\-2020  03:59 pm</string>
+    <string name="sanmartino15_date">San Martino di Castrozza(TN)  29\-02\-2020  04:37 pm</string>
+    <string name="sanmartino16_date">San Martino di Castrozza(TN)  29\-02\-2020  05:44 pm</string>
+    <string name="sanmartino17_date">San Martino di Castrozza(TN)  29\-02\-2020  05:21 pm</string>
+    <string name="sanmartino18_date">San Martino di Castrozza(TN)  29\-02\-2020  05:50 pm</string>
+    <string name="sanmartino19_date">San Martino di Castrozza(TN)  29\-02\-2020  06:14 pm</string>
+
+    <string name="info">Info</string>
     <string name="title">Info</string>
-    <string name="information"><b>Author: Raffaele Di Nardo Di Maio</b> \n
-    This application shows some of the photos, made by Raffaele. \n
-    It\'s organized in themes and shows the best photos on the movies.
-    If you want to see other applications, programmed by the author, you can visit:\n\n
-    https://github.com/RaffaDNDM \n
-    There you can find some programs about:\n
-    <ul>
-    <li>Machine Learning</li>
-    <li>Big Data</li>
-    <li>Operating System</li>
-    <li>Parallel Computing</li>
-    <li>CTF solutions</li>
-    <li>Application of geometry concepts</li>
-    </ul>
-    </string>
+    <string name="author"><b>Author: Raffaele Di Nardo Di Maio</b> \n </string>
+    <string name="project_info">This application shows some of the photos, made by Raffaele. \n
+    The code is fully upload on Github. If you want to see the it, click the button: </string>
+    <string name="project_button">PhotoDNDM</string>
+    <string name="project_url">https://github.com/RaffaDNDM/Notes</string>
+
+    <string name="other_projects">There are other projects and programs made by Raffaele. You can see them by clicking on the following buttons: </string>
+    <string name="ml_button">Machine Learning</string>
+    <string name="ml_description">Machine Learning applications, programmed during the university course.</string>
+    <string name="ml_url">https://github.com/RaffaDNDM/Machine-Learning</string>
+
+    <string name="bigData_button">Big Data</string>
+    <string name="bigData_description">Applications of Big Data algorithm using Spark in Java.</string>
+    <string name="bigData_url">https://github.com/RaffaDNDM/Big-Data-Computing</string>
+
+    <string name="os_button">Operating Systems</string>
+    <string name="os_description">Holt graph analysis for deadlock in C and multithreading management (Semaphore, Hoare\'s Monitor, Java Monitor, Conditional Region) in Java.</string>
+    <string name="os_url">https://github.com/RaffaDNDM/Operating-Systems</string>
+
+    <string name="parallel_button">Knuth-Morris-Pratt</string>
+    <string name="parallel_description">Parallel implementation of Knuth-Morris-Pratt algorithm using MPI Protocol of C on Power 7.</string>
+    <string name="parallel_url">https://github.com/RaffaDNDM/Parallel-Knuth-Morris-Pratt</string>
+
+    <string name="cyber_button">Cyber security</string>
+    <string name="cyber_description">Implementation of some cryptography, compression algorithms and solutions of some CTFs.</string>
+    <string name="cyber_url">https://github.com/RaffaDNDM/Cyber-Security</string>
+
+    <string name="c_button">C lab</string>
+    <string name="c_description">Some small exercises and simulation of electronic components shopping for a company.</string>
+    <string name="c_url">https://github.com/RaffaDNDM/C-lab</string>
+
+    <string name="db_button">AutoChef</string>
+    <string name="db_description">Phases of creation of a Database, its implementation in PostgreSQL and simple APP layer in Java</string>
+    <string name="db_url">https://github.com/RaffaDNDM/AutoChef</string>
+
+    <string name="geometry_button">Coding</string>
+    <string name="geometry_description">Implementation of geometry algorithms.</string>
+    <string name="geometry_url">https://github.com/RaffaDNDM/Coding</string>
+
+    <string name="javaGUI_button">TicTacToe</string>
+    <string name="javaGUI_description">Implementation of TicTacToe game through Java GUI.</string>
+    <string name="javaGUI_url">https://github.com/RaffaDNDM/TicTacToe</string>
+
+    <string name="bot_button">QBot</string>
+    <string name="bot_description">Telegram bot for generation and decoding of QRcodes.</string>
+    <string name="bot_url">https://github.com/RaffaDNDM/Qbot</string>
 </resources>

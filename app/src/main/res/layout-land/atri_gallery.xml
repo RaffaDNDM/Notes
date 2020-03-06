@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/atri"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/atri_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/atri" />
+
+            <ImageView
+                android:id="@+id/atri1"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/atri1_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/atri1" />
+
+            <ImageView
+                android:id="@+id/atri2"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/atri2_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/atri2" />
+
+            <ImageView
+                android:id="@+id/atri3"
+                android:layout_width="177dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/atri3_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/atri3" />
+
+            <ImageView
+                android:id="@+id/atri4"
+                android:layout_width="177dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/atri4_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/atri4" />
+
+            <ImageView
+                android:id="@+id/atri5"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="60dp"
+                android:contentDescription="@string/atri5_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/atri5" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
