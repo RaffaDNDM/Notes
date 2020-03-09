@@ -23,10 +23,23 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent);
     }
 
-    public void tutorial(View view)
+    public void github(View view)
     {
-        Intent intent = new Intent(this, InfoActivity.class);
+        Intent intent = new Intent(this, GithubActivity.class);
         startActivity(intent);
+    }
+
+    public void music(View view) {
+        Intent intent = new Intent(this, MusicActivity.class);
+        startActivity(intent);
+    }
+
+    public void fun(View view) {
+
+    }
+
+    public void about(View view) {
+
     }
 }
 

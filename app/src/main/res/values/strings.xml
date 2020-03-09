@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">PhotoDNDM</string>
-    <string name="photo_button">Photo</string>
+    <string name="photo">Photo</string>
     <string name="menu">Menu</string>
     <string name="gallery">Gallery</string>
 
@@ -115,4 +115,21 @@
     <string name="bot_button">QBot</string>
     <string name="bot_description">Telegram bot for generation and decoding of QRcodes.</string>
     <string name="bot_url">https://github.com/RaffaDNDM/Qbot</string>
+    <string name="music">music</string>
+    <string name="fun">fun</string>
+    <string name="github">github</string>
+    <string name="about">about</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+
+    <string name="song0">Shiver</string>
+    <string name="song1">Na Na Na</string>
+    <string name="song2">Stand by me</string>
+    <string name="song3">Zombie</string>
+
+    <string name="three_notes">Three Notes</string>
+    <string name="next">next</string>
+    <string name="prev">prev</string>
+    <string name="song">song</string>
 </resources>

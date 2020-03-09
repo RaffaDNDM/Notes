@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:text="@string/author"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/author" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <TextView
+                android:id="@+id/project_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/reg_padding"
+                android:text="@string/project_info" />
+
+            <Button
+                android:id="@+id/project_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/project_info"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="3dp"
+                android:autoLink="web"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:contentDescription="@string/project_url"
+                android:lineSpacingExtra="@dimen/line_spacing"
+                android:padding="@dimen/reg_padding"
+                android:onClick="gitSearch"
+                android:text="@string/project_button" />
+
+            <TextView
+                android:id="@+id/other_projects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/project_button"
+                android:layout_marginTop="40dp"
+                android:text="@string/other_projects" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/db"
+                android:layout_below="@id/other_projects"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/db_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/brown"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/db_url"
+                    android:onClick="gitSearch"
+                    android:text="@string/db_button" />
+
+                <TextView
+                    android:id="@+id/db_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/db_description" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/bigData"
+                android:layout_below="@id/db"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/bigData_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/holo_red_dark"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/bigData_url"
+                    android:onClick="gitSearch"
+                    android:text="@string/bigData_button" />
+
+                <TextView
+                    android:id="@+id/bigData_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/bigData_description" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/c"
+                android:layout_below="@+id/bigData"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/c_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/holo_orange_dark"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/c_url"
+                    android:onClick="gitSearch"
+                    android:text="@string/c_button" />
+
+                <TextView
+                    android:id="@+id/c_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/c_description" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/geometry"
+                android:layout_below="@+id/c"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/geometry_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/gold"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/geometry_url"
+                    android:onClick="gitSearch"
+                    android:text="@string/geometry_button" />
+
+                <TextView
+                    android:id="@+id/geometry_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/geometry_description" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/cyber"
+                android:layout_below="@+id/geometry"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/cyber_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/yellow"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/cyber_url"
+                    android:onClick="gitSearch"
+                    android:text="@string/cyber_button" />
+
+                <TextView
+                    android:id="@+id/cyber_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/cyber_description" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/parallel"
+                android:layout_below="@+id/cyber"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/parallel_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/holo_green_dark"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/parallel_url"
+                    android:onClick="gitSearch"
+                    android:text="@string/parallel_button" />
+
+                <TextView
+                    android:id="@+id/parallel_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/parallel_description" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/ml"
+                android:layout_below="@+id/parallel"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/ml_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/holo_blue_light"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/ml_url"
+                    android:onClick="gitSearch"
+                    android:text="@string/ml_button" />
+
+                <TextView
+                    android:id="@+id/ml_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/ml_description" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/os"
+                android:layout_below="@+id/ml"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/os_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/blue"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/os_url"
+                    android:onClick="gitSearch"
+                    android:text="@string/os_button" />
+
+                <TextView
+                    android:id="@+id/os_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/os_description" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/bot"
+                android:layout_below="@+id/os"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/bot_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/purple"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/bot_url"
+                    android:onClick="gitSearch"
+                    android:text="@string/bot_button" />
+
+                <TextView
+                    android:id="@+id/bot_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/bot_description" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/javaGUI"
+                android:layout_below="@+id/bot"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/javaGUI_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/holo_purple"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/javaGUI_url"
+                    android:onClick="gitSearch"
+                    android:text="@string/javaGUI_button" />
+
+                <TextView
+                    android:id="@+id/javaGUI_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/javaGUI_description" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -10,16 +10,16 @@
         android:screenOrientation="sensor"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
-
+        <activity android:name=".MusicActivity"></activity>
+        <activity android:name=".GithubActivity" />
         <activity
             android:name=".GalleryActivity"
             android:label="GalleryActivity"
-            android:parentActivityName=".PhotoActivity" >
+            android:parentActivityName=".PhotoActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.photodndm.PhotoActivity" />
         </activity>
-
         <activity
             android:name=".InfoActivity"
             android:label="InfoActivity"
@@ -28,7 +28,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.photodndm.MainActivity" />
         </activity>
-
         <activity
             android:name=".PhotoActivity"
             android:label="PhotoActivity"
@@ -37,7 +36,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.photodndm.MainActivity" />
         </activity>
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,7 +43,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
