@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/live65"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live65" />
+
+            <ImageView
+                android:id="@+id/live66"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live66" />
+
+            <ImageView
+                android:id="@+id/live67"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live67" />
+
+            <ImageView
+                android:id="@+id/live68"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live68" />
+
+            <ImageView
+                android:id="@+id/live69"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live69" />
+
+            <ImageView
+                android:id="@+id/live70"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live70" />
+
+            <ImageView
+                android:id="@+id/live71"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live71" />
+
+            <ImageView
+                android:id="@+id/live72"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live72" />
+
+            <ImageView
+                android:id="@+id/live73"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live73" />
+
+            <ImageView
+                android:id="@+id/live74"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live74" />
+
+            <ImageView
+                android:id="@+id/live75"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live75" />
+
+            <ImageView
+                android:id="@+id/live76"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live76" />
+
+            <ImageView
+                android:id="@+id/live77"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live77" />
+
+            <ImageView
+                android:id="@+id/live78"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live78" />
+
+            <ImageView
+                android:id="@+id/live79"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live79" />
+
+            <ImageView
+                android:id="@+id/live80"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live80" />
+
+            <ImageView
+                android:id="@+id/live81"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live81" />
+
+            <ImageView
+                android:id="@+id/live82"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live82" />
+
+            <ImageView
+                android:id="@+id/live83"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live83" />
+
+            <ImageView
+                android:id="@+id/live84"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live84" />
+
+            <ImageView
+                android:id="@+id/live85"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live85" />
+
+            <ImageView
+                android:id="@+id/live86"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live86" />
+
+            <ImageView
+                android:id="@+id/live87"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live87" />
+
+            <ImageView
+                android:id="@+id/live88"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live88" />
+
+            <ImageView
+                android:id="@+id/live89"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live89" />
+
+            <ImageView
+                android:id="@+id/live90"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live90" />
+
+            <ImageView
+                android:id="@+id/live91"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live91" />
+
+            <ImageView
+                android:id="@+id/live92"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live92" />
+
+            <ImageView
+                android:id="@+id/live93"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live93" />
+
+            <ImageView
+                android:id="@+id/live94"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live94" />
+
+            <ImageView
+                android:id="@+id/live95"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live95" />
+
+            <ImageView
+                android:id="@+id/live96"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live96" />
+
+            <ImageView
+                android:id="@+id/live97"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live97" />
+
+            <ImageView
+                android:id="@+id/live98"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live98" />
+
+            <ImageView
+                android:id="@+id/live99"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live99" />
+
+            <ImageView
+                android:id="@+id/live100"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live100" />
+
+            <ImageView
+                android:id="@+id/live101"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live101" />
+
+            <ImageView
+                android:id="@+id/live102"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live102" />
+
+            <ImageView
+                android:id="@+id/live103"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live103" />
+
+            <ImageView
+                android:id="@+id/live104"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live104" />
+
+            <ImageView
+                android:id="@+id/live105"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live105" />
+
+            <ImageView
+                android:id="@+id/live106"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live106" />
+
+            <ImageView
+                android:id="@+id/live107"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live107" />
+
+            <ImageView
+                android:id="@+id/live108"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live108" />
+
+            <ImageView
+                android:id="@+id/live109"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live109" />
+
+            <ImageView
+                android:id="@+id/live110"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live110" />
+
+            <ImageView
+                android:id="@+id/live111"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live111" />
+
+            <ImageView
+                android:id="@+id/live112"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live112" />
+
+            <ImageView
+                android:id="@+id/live113"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:contentDescription="@string/summer_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live113" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

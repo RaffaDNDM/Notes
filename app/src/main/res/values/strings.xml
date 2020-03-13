@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PhotoDNDM</string>
+    <string name="app_name">RaffaDNDM</string>
     <string name="photo">Photo</string>
     <string name="menu">Menu</string>
     <string name="gallery">Gallery</string>
@@ -68,11 +68,18 @@
     <string name="sanmartino19_date">San Martino di Castrozza(TN)  29\-02\-2020  06:14 pm</string>
 
     <string name="info">Info</string>
-    <string name="title">Info</string>
     <string name="author"><b>Author: Raffaele Di Nardo Di Maio</b> \n </string>
-    <string name="project_info">This application shows some of the photos, made by Raffaele. \n
-    The code is fully upload on Github. If you want to see the it, click the button: </string>
-    <string name="project_button">PhotoDNDM</string>
+
+    <string name="project_info">This application is composed by different sections:</string>
+    <string name="photo_info">It shows some photos made by the author Raffaele during holidays.</string>
+    <string name="music_info">It\'s dedicated to Three Notes. Three Notes is a band, that had played in many places during 2013-2014.\n
+        It was composed by Raffaele Di Nardo Di Maio at lead guitar (acoustic), Giuseppe Di Ridolfo at solo guitar, Ilenia De Sanctis at voice, Ilaria Nallira at violin.\n
+        In this section, you can find photos of some concerts and some songs.
+    </string>
+    <string name="github_info">It\'s dedicated to all the repositories made by Raffaele and uploaded on Github.</string>
+
+
+    <string name="project_source">The source code of this project is contained in the following Github Repository</string>
     <string name="project_url">https://github.com/RaffaDNDM/Notes</string>
 
     <string name="other_projects">There are other projects and programs made by Raffaele. You can see them by clicking on the following buttons: </string>
@@ -115,10 +122,9 @@
     <string name="bot_button">QBot</string>
     <string name="bot_description">Telegram bot for generation and decoding of QRcodes.</string>
     <string name="bot_url">https://github.com/RaffaDNDM/Qbot</string>
-    <string name="music">music</string>
-    <string name="fun">fun</string>
-    <string name="github">github</string>
-    <string name="about">about</string>
+
+    <string name="music">Music</string>
+    <string name="github">Github</string>
     <string name="play">Play</string>
     <string name="pause">Pause</string>
     <string name="stop">Stop</string>
@@ -127,9 +133,37 @@
     <string name="song1">Na Na Na</string>
     <string name="song2">Stand by me</string>
     <string name="song3">Zombie</string>
-
-    <string name="three_notes">Three Notes</string>
+    <string name="band">Three Notes</string>
     <string name="next">next</string>
     <string name="prev">prev</string>
     <string name="song">song</string>
+    <string name="live">Live</string>
+
+    <string name="posters">Posters</string>
+    <string name="poster1_date">27-04-2013</string>
+    <string name="poster2_date">10-05-2013</string>
+    <string name="poster3_date">25-05-2013</string>
+    <string name="poster4_date">16-06-2013</string>
+    <string name="poster5_date">07-08-2013</string>
+    <string name="poster6_date">09-08-2013</string>
+    <string name="poster7_date">10-08-2013</string>
+    <string name="poster8_date">12-08-2013</string>
+
+    <string name="semi">semi</string>
+    <string name="semi_title">Part 1</string>
+    <string name="lido">lido</string>
+    <string name="lido_title">Part 2</string>
+    <string name="summer">summer</string>
+    <string name="summer_title">Part 3</string>
+    <string name="pub">pub</string>
+    <string name="pub_title">Part 4</string>
+
+    <string name="euphoria_info">Euphoria, Pescara (PE) 19-01-2013</string>
+    <string name="semi_info">Semifinal of Voce del Cuore, Roseto degli Abruzzi (TE) 27-06-2013</string>
+    <string name="lido_info">Lido d\'Abruzzo, Roseto degli Abruzzi (TE) 01-07-2013</string>
+    <string name="nidoape_info">Nido d\'Ape, Silvi Marina (TE) 16-06-2013</string>
+    <string name="allin_info">All In Bar, Roseto degli Abruzzi (TE) 02-07-2013</string>
+    <string name="summer_info">Summer Voice Contest, Pineto (TE) 22-08-2013</string>
+    <string name="koko_info">Fermo Posta Cafè, Atri (TE) 10-05-2013</string>
+    <string name="koko2_info">Fermo Posta Cafè, Atri (TE) 10-08-2013</string>
 </resources>

@@ -11,7 +11,7 @@
         android:layout_height="200dp"
         android:foregroundGravity="center_horizontal"
         android:layout_marginTop="140dp"
-        android:contentDescription="@string/three_notes"
+        android:contentDescription="@string/band"
         app:srcCompat="@drawable/three_notes" />
 
     <ImageView

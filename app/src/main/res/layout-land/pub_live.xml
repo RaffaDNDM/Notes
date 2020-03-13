@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/live1"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/euphoria_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live1" />
+
+            <ImageView
+                android:id="@+id/live2"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/euphoria_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live2" />
+
+            <ImageView
+                android:id="@+id/live57"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/nidoape_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live57" />
+
+            <ImageView
+                android:id="@+id/live58"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/nidoape_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live58" />
+
+            <ImageView
+                android:id="@+id/live59"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/nidoape_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live59" />
+
+            <ImageView
+                android:id="@+id/live60"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/allin_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live60" />
+
+            <ImageView
+                android:id="@+id/live61"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/allin_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live61" />
+
+            <ImageView
+                android:id="@+id/live62"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/allin_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live62" />
+
+            <ImageView
+                android:id="@+id/live63"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/allin_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live63" />
+
+            <ImageView
+                android:id="@+id/live64"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/allin_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live64" />
+
+            <ImageView
+                android:id="@+id/live115"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live115" />
+
+            <ImageView
+                android:id="@+id/live116"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live116" />
+
+            <ImageView
+                android:id="@+id/live117"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live117" />
+
+            <ImageView
+                android:id="@+id/live118"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live118" />
+
+            <ImageView
+                android:id="@+id/live119"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live119" />
+
+            <ImageView
+                android:id="@+id/live120"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live120" />
+
+            <ImageView
+                android:id="@+id/live121"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko2_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live121" />
+
+            <ImageView
+                android:id="@+id/live122"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko2_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live122" />
+
+            <ImageView
+                android:id="@+id/live123"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko2_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live123" />
+
+            <ImageView
+                android:id="@+id/live124"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko2_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live124" />
+
+            <ImageView
+                android:id="@+id/live125"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko2_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live125" />
+
+            <ImageView
+                android:id="@+id/live126"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko2_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live126" />
+
+            <ImageView
+                android:id="@+id/live127"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/koko2_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live127" />
+
+            <ImageView
+                android:id="@+id/live128"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:contentDescription="@string/koko2_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live128" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

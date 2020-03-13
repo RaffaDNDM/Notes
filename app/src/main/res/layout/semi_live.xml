@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/live3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="40dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live3" />
+
+            <ImageView
+                android:id="@+id/live4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live4" />
+
+            <ImageView
+                android:id="@+id/live5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live5" />
+
+            <ImageView
+                android:id="@+id/live6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live6" />
+
+            <ImageView
+                android:id="@+id/live7"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live7" />
+
+            <ImageView
+                android:id="@+id/live8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live8" />
+
+            <ImageView
+                android:id="@+id/live9"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live9" />
+
+            <ImageView
+                android:id="@+id/live10"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live10" />
+
+            <ImageView
+                android:id="@+id/live11"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live11" />
+
+            <ImageView
+                android:id="@+id/live12"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live12" />
+
+            <ImageView
+                android:id="@+id/live13"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live13" />
+
+            <ImageView
+                android:id="@+id/live14"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live14" />
+
+            <ImageView
+                android:id="@+id/live15"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live15" />
+
+            <ImageView
+                android:id="@+id/live16"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live16" />
+
+            <ImageView
+                android:id="@+id/live17"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live17" />
+
+            <ImageView
+                android:id="@+id/live18"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live18" />
+
+            <ImageView
+                android:id="@+id/live19"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live19" />
+
+            <ImageView
+                android:id="@+id/live20"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live20" />
+
+            <ImageView
+                android:id="@+id/live21"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live21" />
+
+            <ImageView
+                android:id="@+id/live22"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live22" />
+
+            <ImageView
+                android:id="@+id/live23"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live23" />
+
+            <ImageView
+                android:id="@+id/live24"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live24" />
+
+            <ImageView
+                android:id="@+id/live25"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live25" />
+
+            <ImageView
+                android:id="@+id/live26"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live26" />
+
+            <ImageView
+                android:id="@+id/live27"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live27" />
+
+            <ImageView
+                android:id="@+id/live28"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live28" />
+
+            <ImageView
+                android:id="@+id/live29"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live29" />
+
+            <ImageView
+                android:id="@+id/live30"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live30" />
+
+            <ImageView
+                android:id="@+id/live31"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live31" />
+
+            <ImageView
+                android:id="@+id/live32"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live32" />
+
+            <ImageView
+                android:id="@+id/live33"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live33" />
+
+            <ImageView
+                android:id="@+id/live34"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="@string/semi_info"
+                android:onClick="photoInfo"
+                app:srcCompat="@drawable/live34" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

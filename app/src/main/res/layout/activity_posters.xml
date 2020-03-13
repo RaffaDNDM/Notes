@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/poster1"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/poster1_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/poster1" />
+
+            <ImageView
+                android:id="@+id/poster2"
+                android:layout_width="285dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/poster2_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/poster2" />
+
+            <ImageView
+                android:id="@+id/poster3"
+                android:layout_width="295dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/poster3_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/poster3" />
+
+            <ImageView
+                android:id="@+id/poster4"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/poster4_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/poster4" />
+
+            <ImageView
+                android:id="@+id/poster5"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/poster5_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/poster5" />
+
+            <ImageView
+                android:id="@+id/poster6"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/poster6_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/poster6" />
+
+            <ImageView
+                android:id="@+id/poster7"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/poster7_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/poster7" />
+
+            <ImageView
+                android:id="@+id/poster8"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="60dp"
+                android:contentDescription="@string/poster8_date"
+                android:onClick="onPhoto"
+                app:srcCompat="@drawable/poster8" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

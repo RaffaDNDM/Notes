@@ -48,7 +48,7 @@
                 android:lineSpacingExtra="@dimen/line_spacing"
                 android:padding="@dimen/reg_padding"
                 android:onClick="gitSearch"
-                android:text="@string/project_button" />
+                android:text="@string/app_name" />
 
             <TextView
                 android:id="@+id/other_projects"

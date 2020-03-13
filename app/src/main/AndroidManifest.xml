@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.photodndm">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.raffadndm">
 
     <application
         android:allowBackup="true"
@@ -9,24 +10,71 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:screenOrientation="sensor"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat">
-        <activity android:name=".MusicActivity"></activity>
-        <activity android:name=".GithubActivity" />
+        android:theme="@style/Theme.AppCompat" >
         <activity
-            android:name=".GalleryActivity"
-            android:label="GalleryActivity"
-            android:parentActivityName=".PhotoActivity">
+            android:name=".MusicActivity"
+            android:label="MusicActivity"
+            android:parentActivityName=".BandActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.photodndm.PhotoActivity" />
+                android:value=".BandActivity" />
         </activity>
+        <activity
+            android:name=".PhotoLiveActivity"
+            android:label="PhotoLiveActivity"
+            android:parentActivityName=".LiveActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LiveActivity" />
+        </activity>
+        <activity
+            android:name=".PostersActivity"
+            android:label="PostersActivity"
+            android:parentActivityName=".BandActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BandActivity" />
+        </activity>
+        <activity
+            android:name=".LiveActivity"
+            android:label="LiveActivity"
+            android:parentActivityName=".BandActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BandActivity" />
+        </activity>
+
+        <activity
+            android:name=".BandActivity"
+            android:label="BandActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
         <activity
             android:name=".InfoActivity"
             android:label="InfoActivity"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.photodndm.MainActivity" />
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".GithubActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".GalleryActivity"
+            android:label="GalleryActivity"
+            android:parentActivityName=".PhotoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PhotoActivity" />
         </activity>
         <activity
             android:name=".PhotoActivity"
@@ -34,7 +82,7 @@
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.photodndm.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
