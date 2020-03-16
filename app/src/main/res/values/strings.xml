@@ -175,4 +175,11 @@
     <string name="koko_info">Fermo Posta Cafè, Atri (TE) 10-05-2013</string>
     <string name="koko2_info">Fermo Posta Cafè, Atri (TE) 10-08-2013</string>
 
+    <string name="cn_url">https://github.com/RaffaDNDM/Computer-Networks</string>
+    <string name="cn_button">Computer Networks</string>
+    <string name="cn_description">Computer Networks applications of protocols in C.</string>
+    <string name="cv_url">https://github.com/RaffaDNDM/Computer-Vision</string>
+    <string name="cv_button">Computer Vision</string>
+    <string name="cv_description">Application of Computer Vision algorithms in C++.</string>
+
 </resources>

@@ -184,12 +184,71 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/cn"
+                android:layout_below="@id/geometry"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/cn_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/brown"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/cn_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
+                    android:onClick="gitSearch"
+                    android:text="@string/cn_button" />
+
+                <TextView
+                    android:id="@+id/cn_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/cn_description" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/cv"
+                android:layout_below="@id/cn"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/cv_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/brown"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/cv_url"
+                    android:textAllCaps="false"
+                    android:padding="@dimen/reg_padding"
+                    android:onClick="gitSearch"
+                    android:text="@string/cv_button" />
+
+                <TextView
+                    android:id="@+id/cv_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/cv_description" />
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id = "@+id/cyber"
-                android:layout_below="@+id/geometry"
+                android:layout_below="@+id/cv"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal" >
 
