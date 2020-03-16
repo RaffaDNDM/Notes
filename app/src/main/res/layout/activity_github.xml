@@ -48,6 +48,7 @@
                 android:contentDescription="@string/project_url"
                 android:lineSpacingExtra="@dimen/line_spacing"
                 android:padding="@dimen/reg_padding"
+                android:textAllCaps="false"
                 android:onClick="gitSearch"
                 android:text="@string/app_name" />
 
@@ -75,6 +76,8 @@
                     android:background="@color/brown"
                     android:textColor="@android:color/black"
                     android:contentDescription="@string/db_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
                     android:onClick="gitSearch"
                     android:text="@string/db_button" />
 
@@ -104,6 +107,8 @@
                     android:background="@android:color/holo_red_dark"
                     android:textColor="@android:color/black"
                     android:contentDescription="@string/bigData_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
                     android:onClick="gitSearch"
                     android:text="@string/bigData_button" />
 
@@ -133,6 +138,8 @@
                     android:background="@android:color/holo_orange_dark"
                     android:textColor="@android:color/black"
                     android:contentDescription="@string/c_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
                     android:onClick="gitSearch"
                     android:text="@string/c_button" />
 
@@ -162,6 +169,8 @@
                     android:background="@color/gold"
                     android:textColor="@android:color/black"
                     android:contentDescription="@string/geometry_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
                     android:onClick="gitSearch"
                     android:text="@string/geometry_button" />
 
@@ -193,6 +202,8 @@
                     android:background="@color/yellow"
                     android:textColor="@android:color/black"
                     android:contentDescription="@string/cyber_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
                     android:onClick="gitSearch"
                     android:text="@string/cyber_button" />
 
@@ -221,6 +232,8 @@
                     android:background="@android:color/holo_green_dark"
                     android:textColor="@android:color/black"
                     android:contentDescription="@string/parallel_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
                     android:onClick="gitSearch"
                     android:text="@string/parallel_button" />
 
@@ -249,6 +262,8 @@
                     android:background="@android:color/holo_blue_light"
                     android:textColor="@android:color/black"
                     android:contentDescription="@string/ml_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
                     android:onClick="gitSearch"
                     android:text="@string/ml_button" />
 
@@ -277,6 +292,8 @@
                     android:background="@color/blue"
                     android:textColor="@android:color/black"
                     android:contentDescription="@string/os_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
                     android:onClick="gitSearch"
                     android:text="@string/os_button" />
 
@@ -292,8 +309,68 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id = "@+id/bot"
+                android:id = "@+id/or2"
                 android:layout_below="@+id/os"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/or2_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/blue"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/or2_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
+                    android:onClick="gitSearch"
+                    android:text="@string/or2_button" />
+
+                <TextView
+                    android:id="@+id/or2_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/or2_description" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/pro"
+                android:layout_below="@+id/or2"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/pro_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/blue"
+                    android:textColor="@android:color/black"
+                    android:contentDescription="@string/pro_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
+                    android:onClick="gitSearch"
+                    android:text="@string/pro_button" />
+
+                <TextView
+                    android:id="@+id/pro_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/pro_description" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id = "@+id/bot"
+                android:layout_below="@+id/pro"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal" >
 
@@ -305,6 +382,8 @@
                     android:background="@color/purple"
                     android:textColor="@android:color/black"
                     android:contentDescription="@string/bot_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
                     android:onClick="gitSearch"
                     android:text="@string/bot_button" />
 
@@ -335,6 +414,8 @@
                     android:background="@android:color/holo_purple"
                     android:textColor="@android:color/black"
                     android:contentDescription="@string/javaGUI_url"
+                    android:padding="@dimen/reg_padding"
+                    android:textAllCaps="false"
                     android:onClick="gitSearch"
                     android:text="@string/javaGUI_button" />
 
